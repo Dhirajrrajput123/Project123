@@ -1,14 +1,14 @@
 //find the prime number
 let num=19;
- let prime=true;
-for(let i=2;i<=num/2;i++){
- 
-if(num%i==0){
-num=false;
+let count =0;
+
+for (i=0;i<=19;i++){
+if (num/i==0){
+count++;
 
 }
-
-if(prime==true){
+}
+if(count ==2){
 
 console.log(num," is prime number");
 }
